@@ -1,0 +1,56 @@
+{
+  "name": "yet-another-vscode-extension-pack",
+  "displayName": "Yet Another VSCode Extension Pack",
+  "description": "Yet Another VSCode Extension Pack",
+  "version": "0.0.2",
+  "publisher": "cirocfc",
+  "repository": {
+    "url": "https://github.com/cirocfc/yet-another/tree/master/packages/yet-another-vscode-extension-pack",
+    "type": "git"
+  },
+  "author": {
+    "email": "ciro.cfc@gmail.com",
+    "name": "Ciro Ferreira da Cruz",
+    "url": "https://github.com/cirocfc"
+  },
+  "icon": "./icons/icon_512.png",
+  "engines": {
+    "vscode": "^1.38.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [
+    "stevencl.adddoccomments",
+    "formulahendry.auto-close-tag",
+    "formulahendry.auto-rename-tag",
+    "aaron-bond.better-comments",
+    "coenraads.bracket-pair-colorizer",
+    "streetsidesoftware.code-spell-checker",
+    "streetsidesoftware.code-spell-checker-portuguese-brazilian",
+    "kisstkondoros.vscode-codemetrics",
+    "paulmolluzzo.convert-css-in-js",
+    "mikestead.dotenv",
+    "editorconfig.editorconf",
+    "dbaeumer.vscode-eslint",
+    "tombonnike.vscode-status-bar-format-toggle",
+    "eamodio.gitlens",
+    "wix.vscode-import-cost",
+    "oderwat.indent-rainbow",
+    "xabikos.javascriptsnippets",
+    "orta.vscode-jest",
+    "andys8.jest-snippets",
+    "yzhang.markdown-all-in-one",
+    "davidanson.vscode-markdownlint",
+    "eg2.vscode-npm-script",
+    "christian-kohler.npm-intellisense",
+    "christian-kohler.path-intellisense",
+    "pnp.polacode",
+    "esbenp.prettier-vscode",
+    "simonsiefke.svg-preview",
+    "octref.vetur",
+    "robertoachar.vscode-essentials-snippets",
+    "vscode-icons-team.vscode-icons",
+    "jpoissonnier.vscode-styled-components"
+  ]
+}
