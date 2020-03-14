@@ -1,9 +1,6 @@
+// @ts-check
+const prettierConfig = require('@cirocfc/yet-another-prettier-config');
+
 module.exports = {
-  arrowParens: 'avoid',
-  bracketSpacing: true,
-  printWidth: 120,
-  semi: true,
-  singleQuote: true,
-  tabWidth: 2,
-  trailingComma: 'all',
+  ...prettierConfig,
 };
