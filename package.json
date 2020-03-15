@@ -8,7 +8,9 @@
   ],
   "author": "Ciro Ferreira da Cruz <ciro.cfc@gmail.com>",
   "repository": "https://github.com/cirocfc/yet-another",
-  "scripts": {},
+  "scripts": {
+    "release": "lerna publish --message \"chore: release :rocket:\" --yes"
+  },
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged",
@@ -16,13 +18,13 @@
     }
   },
   "lint-staged": {
-    "*.{js,json,md}": [
+    "*.{js,json,md,yml}": [
       "prettier --write"
     ]
   },
   "devDependencies": {
-    "@cirocfc/yet-another-commitlint-config": "^0.1.0",
-    "@cirocfc/yet-another-prettier-config": "^0.1.0",
+    "@cirocfc/yet-another-commitlint-config": "^0.0.0",
+    "@cirocfc/yet-another-prettier-config": "^0.0.0",
     "@commitlint/cli": "^8.3.5",
     "conventional-changelog": "^3.1.18",
     "conventional-changelog-conventionalcommits": "^4.2.3",

@@ -1,7 +1,7 @@
 {
   "name": "@cirocfc/yet-another-commitlint-config",
-  "description": "Yet Another commitlint Config",
-  "version": "0.1.0",
+  "description": "Yet Another: Commitlint Config",
+  "version": "0.0.0",
   "main": "src/index.js",
   "author": "Ciro Ferreira da Cruz <ciro.cfc@gmail.com>",
   "repository": "https://github.com/cirocfc/yet-another",
@@ -12,6 +12,9 @@
     "@commitlint/config-conventional": "^8.3.4",
     "@commitlint/format": "^8.3.4",
     "prettier": "^1.19.1"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "license": "MIT"
 }
