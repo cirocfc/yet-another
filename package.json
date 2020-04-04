@@ -23,8 +23,8 @@
     ]
   },
   "devDependencies": {
-    "@cirocfc/yet-another-commitlint-config": "^0.0.0",
-    "@cirocfc/yet-another-prettier-config": "^0.0.0",
+    "@cirocfc/yet-another-commitlint-config": "0.0.1-alpha.3",
+    "@cirocfc/yet-another-prettier-config": "0.0.1-alpha.3",
     "@commitlint/cli": "^8.3.5",
     "conventional-changelog": "^3.1.18",
     "conventional-changelog-conventionalcommits": "^4.2.3",

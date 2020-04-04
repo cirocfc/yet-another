@@ -30,16 +30,6 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
-"@cirocfc/yet-another-commitlint-config@^0.0.0":
-  version "0.0.0"
-  resolved "https://registry.yarnpkg.com/@cirocfc/yet-another-commitlint-config/-/yet-another-commitlint-config-0.0.0.tgz#d4dbb935327d517d93db05fec2cc58ce1999a9cb"
-  integrity sha512-QvKQTcfeGPdPjiiDwh1eRafRWrgHfXDozqeSHx+MN+r3g0RGHePfoNYLWiyl9m6xzEuwc71TolbyzBiX6sdZDg==
-
-"@cirocfc/yet-another-prettier-config@^0.0.0":
-  version "0.0.0"
-  resolved "https://registry.yarnpkg.com/@cirocfc/yet-another-prettier-config/-/yet-another-prettier-config-0.0.0.tgz#68c95878d8fc36d3131dfe3f43faf2048ad43843"
-  integrity sha512-7VZDO+7EqMcpOFzDZhIf5k0x3tBJdQkOwAejQywPIlAXKXu+CWvgMha+zg5qY8Sro9reqd0ssxnHl92eRcaMEA==
-
 "@commitlint/cli@^8.3.5":
   version "8.3.5"
   resolved "https://registry.yarnpkg.com/@commitlint/cli/-/cli-8.3.5.tgz#6d93a3a8b2437fa978999d3f6a336bcc70be3fd3"
