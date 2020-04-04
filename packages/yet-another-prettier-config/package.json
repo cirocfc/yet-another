@@ -1,15 +1,15 @@
 {
   "name": "@cirocfc/yet-another-prettier-config",
   "description": "Yet Another: Prettier Config",
-  "version": "0.0.1-alpha.0",
+  "version": "0.0.1-alpha.1",
   "main": "src/index.js",
   "author": "Ciro Ferreira da Cruz <ciro.cfc@gmail.com>",
   "repository": "https://github.com/cirocfc/yet-another",
   "peerDependencies": {
-    "prettier": "^1.19.1"
+    "prettier": "^2.0.2"
   },
   "devDependencies": {
-    "prettier": "^1.19.1"
+    "prettier": "^2.0.2"
   },
   "publishConfig": {
     "access": "public"
