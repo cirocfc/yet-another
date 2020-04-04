@@ -10,8 +10,7 @@
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^8.3.4",
-    "@commitlint/format": "^8.3.4",
-    "prettier": "^2.0.2"
+    "@commitlint/format": "^8.3.4"
   },
   "publishConfig": {
     "access": "public"
