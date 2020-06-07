@@ -2,7 +2,7 @@
   "name": "yet-another-vscode-extension-pack",
   "displayName": "Yet Another VSCode Extension Pack",
   "description": "Yet Another VSCode Extension Pack",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "cirocfc",
   "repository": {
     "url": "https://github.com/cirocfc/yet-another/tree/master/packages/yet-another-vscode-extension-pack",
@@ -13,7 +13,7 @@
     "name": "Ciro Ferreira da Cruz",
     "url": "https://github.com/cirocfc"
   },
-  "icon": "./icons/icon_512.png",
+  "icon": "icons/512.png",
   "engines": {
     "vscode": "^1.38.0"
   },
@@ -51,6 +51,7 @@
     "octref.vetur",
     "robertoachar.vscode-essentials-snippets",
     "vscode-icons-team.vscode-icons",
-    "jpoissonnier.vscode-styled-components"
+    "jpoissonnier.vscode-styled-components",
+    "sdras.vue-vscode-snippets"
   ]
 }

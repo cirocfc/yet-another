@@ -146,6 +146,8 @@ module.exports = {
   Icons for Visual Studio Code
 - [vscode-styled-components](https://marketplace.visualstudio.com/items?itemName=jpoissonnier.vscode-styled-components) -
   Syntax highlighting for styled-components
+- [Vue VSCode Snippets](https://marketplace.visualstudio.com/items?itemName=sdras.vue-vscode-snippets) -
+  Snippets that will supercharge your Vue workflow
 
 ## Credits
 
