@@ -1,6 +1,9 @@
 {
   "name": "@cirocfc/yet-another-commitlint-config",
   "description": "Yet Another: Commitlint Config",
+  "logo": {
+    "file": "./icons/128.png"
+  },
   "version": "0.0.1-alpha.3",
   "main": "src/index.js",
   "author": "Ciro Ferreira da Cruz <ciro.cfc@gmail.com>",
@@ -8,7 +11,7 @@
   "peerDependencies": {
     "@commitlint/cli": "^8.3.5"
   },
-  "devDependencies": {
+  "dependencies": {
     "@commitlint/config-conventional": "^8.3.4",
     "@commitlint/format": "^8.3.4"
   },

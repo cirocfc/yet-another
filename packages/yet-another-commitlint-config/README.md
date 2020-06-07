@@ -13,7 +13,16 @@ yarn add -D @cirocfc/yet-another-commitlint-config
 ```
 
 ```js
+// commitlint.config.js
 module.exports = {
   extends: ['@cirocfc/yet-another-commitlint-config'],
 };
+```
+
+---
+
+\* Make sure to install required peerDependencies:
+
+```sh
+yarn add -D @commitlint/cli
 ```
