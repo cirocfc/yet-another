@@ -45,6 +45,10 @@ jspm_packages/
 .node_repl_history
 
 # Yarn
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+.pnp.*
 .yarn-integrity
 
 # npm

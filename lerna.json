@@ -3,6 +3,10 @@
   "useWorkspaces": true,
   "version": "independent",
   "command": {
+    "version": {
+      "message": "chore: release :rocket:",
+      "conventionalCommits": true
+    },
     "publish": {
       "access": "public",
       "allowBranch": ["master"],
