@@ -13,7 +13,16 @@ yarn add -D @cirocfc/yet-another-prettier-config
 ```
 
 ```js
+// .prettierrc.js
 module.exports = {
   ...require('@cirocfc/yet-another-prettier-config'),
 };
+```
+
+---
+
+\* Make sure to install required peerDependencies:
+
+```sh
+yarn add -D prettier
 ```

@@ -1,6 +1,9 @@
 {
   "name": "@cirocfc/yet-another-prettier-config",
   "description": "Yet Another: Prettier Config",
+  "logo": {
+    "file": "./icons/128.png"
+  },
   "version": "0.0.1-alpha.3",
   "main": "src/index.js",
   "author": "Ciro Ferreira da Cruz <ciro.cfc@gmail.com>",
