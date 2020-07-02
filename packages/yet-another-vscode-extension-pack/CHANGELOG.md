@@ -2,6 +2,21 @@
 
 All notable changes made to `yet-another-vscode-extension-pack` are documented in this file.
 
+## v0.0.4
+
+Add more packages:
+
+- wmaurer.change-case
+- gruntfuggly.todo-tree
+
+## v0.0.3
+
+Update icon location
+
+Add more packages:
+
+- sdras.vue-vscode-snippets
+
 ## v0.0.2
 
 Add more packages:

@@ -94,10 +94,12 @@ module.exports = {
   Improve your code commenting by annotating with alert, informational, TODOs, and more!
 - [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=coenraads.bracket-pair-colorizer) -
   A customizable extension for colorizing matching brackets
-- [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) -
-  Spelling checker for source code
 - [Brazilian Portuguese - Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker-portuguese-brazilian) -
   Brazilian Portuguese dictionary extension for VS Code
+- [Change Case](https://marketplace.visualstudio.com/items?itemName=wmaurer.change-case) -
+  Quickly change the case (camelCase, CONSTANT_CASE, snake_case, etc) of the current selection or current word
+- [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) -
+  Spelling checker for source code
 - [CodeMetrics](https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-codemetrics) -
   Computes complexity in TypeScript / JavaScript files
 - [CSS-in-JS](https://marketplace.visualstudio.com/items?itemName=paulmolluzzo.convert-css-in-js) -
@@ -138,6 +140,8 @@ module.exports = {
   VS Code plugin for prettier/prettier
 - [Svg Preview](https://marketplace.visualstudio.com/items?itemName=simonsiefke.svg-preview) -
   Preview for Svg files
+- [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree) -
+  Show TODO, FIXME, etc. comment tags in a tree view
 - [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur) -
   Vue tooling for VSCode
 - [VSCode Essentials Snippets](https://marketplace.visualstudio.com/items?itemName=robertoachar.vscode-essentials-snippets) -
