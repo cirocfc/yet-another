@@ -13,4 +13,5 @@ module.exports = {
   trailingComma: 'all',
   useTabs: false,
   vueIndentScriptAndStyle: true,
+  plugins: ['prettier-plugin-organize-imports', 'prettier-plugin-package', 'prettier-plugin-sh'],
 };

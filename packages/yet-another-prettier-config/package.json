@@ -12,7 +12,12 @@
     "prettier": "^2.0.2"
   },
   "devDependencies": {
-    "prettier": "^2.0.2"
+    "prettier": "^2.0.5"
+  },
+  "dependencies": {
+    "prettier-plugin-organize-imports": "^1.0.4",
+    "prettier-plugin-package": "^1.0.0",
+    "prettier-plugin-sh": "^0.4.0"
   },
   "publishConfig": {
     "access": "public"
