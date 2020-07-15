@@ -1,4 +1,4 @@
-<img src="./icons/512.png" width="150px" align="right"/>
+<img src="https://github.com/cirocfc/yet-another/blob/master/packages/yet-another-vscode-extension-pack/icons/512.png" width="150px" align="right"/>
 
 # yet-another-vscode-extension-pack
 
