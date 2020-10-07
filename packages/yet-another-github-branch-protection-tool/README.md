@@ -23,13 +23,13 @@ After setting the GITHUB_TOKEN value, you can run the commands:
 - To lock a branch:
 
   ```sh
-  yarn ya-branch-protect --project=<project-name-from-projects.yaml> --locked
+  yarn ya-protect-branch --project=<project-name-from-projects.yaml> --locked
   ```
 
 - To unlock a branch:
 
   ```sh
-  yarn ya-branch-protect --project=<project-name-from-projects.yaml>
+  yarn ya-protect-branch --project=<project-name-from-projects.yaml>
   ```
 
 That's it. Enjoy!
