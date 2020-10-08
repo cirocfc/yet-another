@@ -4,9 +4,16 @@ const dotenv = require('dotenv');
 
 const { getRootPath } = require('./root');
 
-const localEnv = dotenv.parse(fs.readFileSync(`${getRootPath()}/.env`));
+function getLocalEnv() {
+  try {
+    return dotenv.parse(fs.readFileSync(`${getRootPath()}/.env`));
+  } catch {
+    console.warn('.env not found!');
+    return {};
+  }
+}
 
 module.exports = {
   GITHUB_TOKEN: process.env.GITHUB_TOKEN,
-  ...localEnv,
+  ...getLocalEnv(),
 };
