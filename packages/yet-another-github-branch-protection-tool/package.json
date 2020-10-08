@@ -23,8 +23,7 @@
     "yargs": "^16.0.3"
   },
   "devDependencies": {
-    "@cirocfc/yet-another-prettier-config": "^0.0.1-alpha.4",
-    "prettier": "^2.1.2"
+    "@cirocfc/yet-another-prettier-config": "^0.0.1-alpha.4"
   },
   "engines": {
     "node": ">=12",

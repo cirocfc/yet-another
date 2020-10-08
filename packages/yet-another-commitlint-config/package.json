@@ -9,11 +9,11 @@
   "author": "Ciro Ferreira da Cruz <ciro.cfc@gmail.com>",
   "repository": "https://github.com/cirocfc/yet-another",
   "peerDependencies": {
-    "@commitlint/cli": "^8.3.5"
+    "@commitlint/cli": "^11.0.0"
   },
   "dependencies": {
-    "@commitlint/config-conventional": "^8.3.4",
-    "@commitlint/format": "^8.3.4"
+    "@commitlint/config-conventional": "^11.0.0",
+    "@commitlint/format": "^11.0.0"
   },
   "publishConfig": {
     "access": "public"

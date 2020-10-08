@@ -27,13 +27,13 @@
     "@cirocfc/yet-another-commitlint-config": "workspace:packages/yet-another-commitlint-config",
     "@cirocfc/yet-another-github-branch-protection-tool": "workspace:packages/yet-another-github-branch-protection-tool",
     "@cirocfc/yet-another-prettier-config": "workspace:packages/yet-another-prettier-config",
-    "@commitlint/cli": "^8.3.5",
-    "conventional-changelog": "^3.1.18",
-    "conventional-changelog-conventionalcommits": "^4.2.3",
-    "husky": "^4.2.3",
-    "lerna": "^3.20.2",
-    "lint-staged": "^10.0.8",
-    "prettier": "^2.0.2"
+    "@commitlint/cli": "^11.0.0",
+    "conventional-changelog": "^3.1.23",
+    "conventional-changelog-conventionalcommits": "^4.4.0",
+    "husky": "^4.3.0",
+    "lerna": "^3.22.1",
+    "lint-staged": "^10.4.0",
+    "prettier": "^2.1.2"
   },
   "engines": {
     "node": ">=12 || >=14",
