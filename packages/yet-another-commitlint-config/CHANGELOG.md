@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.1-alpha.5](https://github.com/cirocfc/yet-another/compare/@cirocfc/yet-another-commitlint-config@0.0.1-alpha.4...@cirocfc/yet-another-commitlint-config@0.0.1-alpha.5) (2020-10-08)
+
+**Note:** Version bump only for package @cirocfc/yet-another-commitlint-config
+
+
+
+
+
 ## [0.0.1-alpha.4](https://github.com/cirocfc/yet-another/compare/@cirocfc/yet-another-commitlint-config@0.0.1-alpha.3...@cirocfc/yet-another-commitlint-config@0.0.1-alpha.4) (2020-06-07)
 
 

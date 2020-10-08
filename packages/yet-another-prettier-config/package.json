@@ -4,7 +4,7 @@
   "logo": {
     "file": "./icons/128.png"
   },
-  "version": "0.0.1-alpha.4",
+  "version": "0.0.1-alpha.5",
   "main": "src/index.js",
   "author": "Ciro Ferreira da Cruz <ciro.cfc@gmail.com>",
   "repository": "https://github.com/cirocfc/yet-another",
