@@ -13,7 +13,11 @@
     "bin",
     "lib"
   ],
-  "repository": "https://github.com/cirocfc/yet-another",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:cirocfc/yet-another-github-branch-protection-tool.git",
+    "directory": "packages/yet-another-github-branch-protection-tool"
+  },
   "author": "Ciro Ferreira da Cruz <ciro.cfc@gmail.com>",
   "dependencies": {
     "@octokit/rest": "^18.0.6",

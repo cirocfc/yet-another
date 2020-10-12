@@ -5,8 +5,9 @@
   "version": "0.0.4",
   "publisher": "cirocfc",
   "repository": {
-    "url": "https://github.com/cirocfc/yet-another/tree/master/packages/yet-another-vscode-extension-pack",
-    "type": "git"
+    "type": "git",
+    "url": "git@github.com:cirocfc/yet-another-vscode-extension-pack.git",
+    "directory": "packages/yet-another-vscode-extension-pack"
   },
   "author": {
     "email": "ciro.cfc@gmail.com",
