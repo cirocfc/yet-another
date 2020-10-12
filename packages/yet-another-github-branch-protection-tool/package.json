@@ -4,7 +4,7 @@
   "logo": {
     "file": "./icons/128.png"
   },
-  "version": "0.0.1-alpha.4",
+  "version": "0.0.1-alpha.5",
   "main": "lib/index.js",
   "bin": {
     "ya-protect-branch": "bin/cli.js"
@@ -27,7 +27,7 @@
     "yargs": "^16.0.3"
   },
   "devDependencies": {
-    "@cirocfc/yet-another-prettier-config": "^0.0.1-alpha.5"
+    "@cirocfc/yet-another-prettier-config": "^0.0.1-alpha.6"
   },
   "engines": {
     "node": ">=12",
