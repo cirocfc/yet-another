@@ -56,7 +56,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@cirocfc/yet-another-github-branch-protection-tool@workspace:packages/yet-another-github-branch-protection-tool"
   dependencies:
-    "@cirocfc/yet-another-prettier-config": ^0.0.1-alpha.6
+    "@cirocfc/yet-another-prettier-config": ^0.0.1-alpha.7
     "@octokit/rest": ^18.0.6
     deepmerge: ^4.2.2
     dotenv: ^8.2.0
@@ -67,7 +67,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@cirocfc/yet-another-prettier-config@^0.0.1-alpha.6, @cirocfc/yet-another-prettier-config@workspace:packages/yet-another-prettier-config":
+"@cirocfc/yet-another-prettier-config@^0.0.1-alpha.7, @cirocfc/yet-another-prettier-config@workspace:packages/yet-another-prettier-config":
   version: 0.0.0-use.local
   resolution: "@cirocfc/yet-another-prettier-config@workspace:packages/yet-another-prettier-config"
   dependencies:
