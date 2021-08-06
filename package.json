@@ -40,5 +40,6 @@
     "npm": ">=6",
     "yarn": ">=2"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "packageManager": "yarn@3.0.0"
 }
