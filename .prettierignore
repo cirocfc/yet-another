@@ -1,2 +1,4 @@
 .yarn
 .pnp.*
+
+/.nx/workspace-data

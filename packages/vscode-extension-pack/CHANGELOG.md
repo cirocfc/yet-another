@@ -2,6 +2,10 @@
 
 All notable changes made to `yet-another-vscode-extension-pack` are documented in this file.
 
+## v0.0.5
+
+Updated extension list as 2025 releases.
+
 ## v0.0.4
 
 Add more packages:

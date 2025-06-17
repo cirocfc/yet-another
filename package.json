@@ -1,22 +1,19 @@
 {
-  "name": "@cirocfc/yet-another-root",
-  "version": "0.3.0",
+  "name": "@yetanothercode/root",
+  "version": "0.4.0",
   "private": true,
   "workspaces": [
-    "packages/yet-another-prettier-config",
-    "packages/yet-another-commitlint-config",
-    "packages/yet-another-github-branch-protection-tool"
+    "packages/**",
+    "!packages/vscode-extension-pack"
   ],
   "author": "Ciro Ferreira da Cruz <ciro.cfc@gmail.com>",
-  "repository": "https://github.com/cirocfc/yet-another",
+  "repository": "https://github.com/yetanothercode/yet-another",
   "scripts": {
-    "release": "lerna publish --yes"
+    "postinstall": "yarn simple-git-hooks"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged",
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
+  "simple-git-hooks": {
+    "pre-commit": "yarn lint-staged",
+    "commit-msg": "yarn commitlint --edit $1"
   },
   "lint-staged": {
     "*.{js,json,md,yml}": [
@@ -24,22 +21,18 @@
     ]
   },
   "devDependencies": {
-    "@cirocfc/yet-another-commitlint-config": "workspace:packages/yet-another-commitlint-config",
-    "@cirocfc/yet-another-github-branch-protection-tool": "workspace:packages/yet-another-github-branch-protection-tool",
-    "@cirocfc/yet-another-prettier-config": "workspace:packages/yet-another-prettier-config",
-    "@commitlint/cli": "^11.0.0",
-    "conventional-changelog": "^3.1.23",
-    "conventional-changelog-conventionalcommits": "^4.4.0",
-    "husky": "^4.3.0",
-    "lerna": "^3.22.1",
-    "lint-staged": "^10.4.0",
-    "prettier": "^2.2.1"
+    "@commitlint/cli": "^19.8.1",
+    "@yetanothercode/commitlint-config": "workspace:packages/commitlint-config",
+    "@yetanothercode/prettier-config": "workspace:packages/prettier-config",
+    "lerna": "^8.2.2",
+    "lint-staged": "^16.1.2",
+    "prettier": "^3.5.3",
+    "simple-git-hooks": "^2.13.0"
   },
   "engines": {
     "node": ">=12 || >=14",
-    "npm": ">=6",
-    "yarn": ">=2"
+    "npm": ">=6"
   },
   "license": "MIT",
-  "packageManager": "yarn@3.0.0"
+  "packageManager": "yarn@4.9.2"
 }

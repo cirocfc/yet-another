@@ -1,5 +1,5 @@
 {
-  "name": "@cirocfc/yet-another-prettier-config",
+  "name": "@yetanothercode/prettier-config",
   "description": "Yet Another: Prettier Config",
   "logo": {
     "file": "./icons/128.png"
@@ -9,14 +9,14 @@
   "author": "Ciro Ferreira da Cruz <ciro.cfc@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "git@github.com:cirocfc/yet-another-prettier-config.git",
-    "directory": "packages/yet-another-prettier-config"
+    "url": "git@github.com:yetanothercode/yet-another.git",
+    "directory": "packages/prettier-config"
   },
   "peerDependencies": {
-    "prettier": "^2.2.1"
+    "prettier": "^3.5.3"
   },
   "devDependencies": {
-    "prettier": "^2.2.1"
+    "prettier": "^3.5.3"
   },
   "publishConfig": {
     "access": "public"

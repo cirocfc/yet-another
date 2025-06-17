@@ -1,7 +1,7 @@
 {
+  "$schema": "node_modules/lerna/schemas/lerna-schema.json",
   "npmClient": "yarn",
-  "useWorkspaces": true,
-  "version": "independent",
+  "version": "0.0.1-alpha.7",
   "command": {
     "version": {
       "message": "chore: release :rocket:",
@@ -10,7 +10,6 @@
     "publish": {
       "access": "public",
       "allowBranch": ["master"],
-      "conventionalCommits": true,
       "ignoreChanges": [".npmrc"]
     }
   }

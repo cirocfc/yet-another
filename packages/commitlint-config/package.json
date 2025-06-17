@@ -1,5 +1,5 @@
 {
-  "name": "@cirocfc/yet-another-commitlint-config",
+  "name": "@yetanothercode/commitlint-config",
   "description": "Yet Another: Commitlint Config",
   "logo": {
     "file": "./icons/128.png"
@@ -9,15 +9,15 @@
   "author": "Ciro Ferreira da Cruz <ciro.cfc@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "git@github.com:cirocfc/yet-another-commitlint-config.git",
-    "directory": "packages/yet-another-commitlint-config"
+    "url": "git@github.com:yetanothercode/yet-another.git",
+    "directory": "packages/commitlint-config"
   },
   "peerDependencies": {
-    "@commitlint/cli": "^11.0.0"
+    "@commitlint/cli": "^19.8.1"
   },
   "dependencies": {
-    "@commitlint/config-conventional": "^11.0.0",
-    "@commitlint/format": "^11.0.0"
+    "@commitlint/config-conventional": "^19.8.1",
+    "@commitlint/format": "^19.8.1"
   },
   "publishConfig": {
     "access": "public"

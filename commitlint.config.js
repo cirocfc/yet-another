@@ -1,4 +1,4 @@
 // @ts-check
 module.exports = {
-  extends: ['@cirocfc/yet-another-commitlint-config'],
+  extends: ['@yetanothercode/commitlint-config'],
 };
