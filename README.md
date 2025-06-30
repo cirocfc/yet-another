@@ -1,6 +1,6 @@
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg?style=flat-square)](http://commitizen.github.io/cz-cli/)
 
-# Yet Another ... Package Collection
+# Yet Another... Package Collection
 
 Yet Another shared node tools
 
