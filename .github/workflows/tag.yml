@@ -24,7 +24,7 @@ jobs:
 
       - name: Configure Git User
         run: |
-          git config --global user.name ${{ vars.BOT_APP_USERNAME }}[bot]
+          git config --global user.name ${{ vars.BOT_APP_USERNAME }}
           git config --global user.email ${{ vars.BOT_APP_EMAIL }}
 
       - name: Setup Node.js
