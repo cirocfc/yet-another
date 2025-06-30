@@ -2,7 +2,7 @@
 
 # Yet Another ... Package Collection
 
-Yet another shared node tools
+Yet Another shared node tools
 
 ## Packages
 
